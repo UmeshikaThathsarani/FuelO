@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.logo {
+  height: 122px;
+  width: 180px;
+  margin: 16px;
+  /* background-image: url('../app/assets/images/pregredLogo.jpg'); */
+}
+
+.content-container {
+  padding: 24px;
+  min-height: 360px;
+  margin: 10px 16px;
+}
+
+.page-container .content-container {
+  background: #fff;
+}
+
+[data-theme='dark'] .page-container .content-container {
+  background: #141414;
 }
