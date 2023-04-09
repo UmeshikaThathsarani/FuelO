@@ -1,0 +1,15 @@
+.menu-item span{
+    padding-left: 10px;
+}
+
+.ant-layout .ant-layout-sider{
+    background-color: #97C5C1;
+}
+
+.ant-menu-dark{
+    background-color: #97C5C1;
+}
+
+.ant-menu-dark .ant-menu-item-selected{
+    background-color: #648381;
+}

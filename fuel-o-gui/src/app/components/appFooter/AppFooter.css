@@ -1,34 +1,30 @@
-.footer-container {
-    bottom: 0;
+  .footer-container {
     width: 100%;
-    color: white;
-    background-color: #001529;
-    display: grid;
-    grid-template-areas:
-      'about about about about about about'
-      'mobile mobile mobile social social social'
-      'copyright copyright copyright copyright copyright copyright';
-  }
+    font-weight: bold;
+    color: #555555;
+    background-color: #97C5C1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }  
   
   .about-us {
     grid-area: about;
-    text-align: center;
-  }
-  
-  .mobile {
-    grid-area: mobile;
-    padding-left: 5px;
+    padding-left: 10px;
     text-align: left;
+    width: 25%;
   }
   
   .social {
     grid-area: social;
-    padding-right: 5px;
-    text-align: right;
+    padding-right: 10px;
+    text-align: left;
   }
   
   .copyright-text {
     grid-area: copyright;
     text-align: center;
+    padding-right: 20px;
   }
   

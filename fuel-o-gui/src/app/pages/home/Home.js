@@ -17,23 +17,18 @@ function Home() {
          <div className="container-home-div1">
            {/* <h3 className="homepage-para-header">Abstract</h3> */}
             <p className="homepage-para">
-            The pregnancy period is one of the most important periods in the life of a woman.
-            The health of the baby is the most crucial factor in that period.
-            <br/>
-            PregRed will help you to detect
-            how the pre-pregnancy factors affect the baby’s health,
-            get knowledge about pre-pregnancy health impacts and can meet health
-            professionals.
+            Our fuel comsumption controlling tips can help you reduce the amount of fuel you use. <br/>
+            If you are already following these tips, you are probably getting the best fuel usage your vehicle can deliver.
             </p>
 
 {/* Form 1 */}
         <div className="home-main-div-models">
             <div className="home-div-models">
               <Button type="primary" shape="round" onClick={() => setVisible1(true)}>
-                Why ladies should aware of prepregnancy health care?
+                Driving More Efficiently
               </Button>
               <Modal
-                title="Why ladies should aware of prepregnancy health care?"
+                title="Driving More Efficiently"
                 centered
                 visible={visible}
                 onOk={() => setVisible1(false)}
@@ -41,24 +36,22 @@ function Home() {
                 width={800}
               >
                 <ol>
-                  <li>Prevent stillbirths, preterm birth and low birth weight </li>
-                  <li>Prevent birth defects</li>
-                  <li>Prevent neonatal infections</li>
-                  <li>Prevent underweight and stunting</li>
-                  <li>Prevent vertical transmission of HIV/STIs</li>
-                  <li>Lower the risk of some forms of childhood cancers </li>
-                  <li>Lower the risk of type 2 diabetes and cardiovascular
-                    disease later in life.</li>
+                  <li>Drive Sensibly</li>
+                  <li>Observe the Speed Limit</li>
+                  <li>Avoid Hauling Cargo on Your Roof</li>
+                  <li>Remove Excess Weight</li>
+                  <li>Avoid Excessive Idling</li>
+                  <li>Use Cruise Control</li>
                 </ol>
               </Modal>
             </div>
 {/* Form 2 */}
             <div className="home-div-models">
               <Button type="primary" shape="round" onClick={() => setVisible2(true)}>
-                What are the factors you should be aware of to have a healthy baby?
+              Keeping Your Vehicle in Shape
               </Button>
               <Modal
-                title="What are the factors you should be aware of to have a healthy baby?"
+                title="Keeping Your Vehicle in Shape"
                 centered
                 visible={visible2}
                 onOk={() => setVisible2(false)}
@@ -66,15 +59,10 @@ function Home() {
                 width={800}
               >
                 <ol>
-                  <li>Age</li>
-                  <li>Subfertility</li>
-                  <li>Oral health</li>
-                  <li>Mental health</li>
-                  <li>Gravidity</li>
-                  <li>Iron</li>
-                  <li>Nutrition and Supplements</li>
-                  <li>Calcium</li>
-                  <li>Folate (Folic Acid)</li>
+                  <li>Address Engine Issues Promptly</li>
+                  <li>Keep Tires Properly Inflated</li>
+                  <li>Use the Recommended Grade of Motor Oil</li>
+                  <li>Replacing a Clogged Air Filter on Modern Cars Improves Performance but Not MPG</li>
                 </ol>
 
               </Modal>
@@ -82,11 +70,10 @@ function Home() {
 {/* Form 3 */}
             <div className="home-div-models">
               <Button type="primary" shape="round" onClick={() => setVisible3(true)}>
-                What are the challenges you may face while achieving the goals to have a baby?
+              Planning and Combining Trips
               </Button>
               <Modal
-                title="What are the challenges you may face
-                 while achieving the goals to have a baby?"
+                title="Planning and Combining Trips"
                 centered
                 visible={visible3}
                 onOk={() => setVisible3(false)}
@@ -94,20 +81,21 @@ function Home() {
                 width={800}
               >
                 <ol>
-                  <li>Time</li>
-                  <li>Poverty</li>
-                  <li>Facilities</li>
-                  <li>Family conditions</li>
+                  <li>Stagger your work hours to avoid peak rush hours.</li>
+                  <li>Drive your most fuel-efficient vehicle.</li>
+                  <li>Consider telecommuting (working from home) if your employer permits it.</li>
+                  <li>Take advantage of carpools and ride-share programs.</li>
+                  <li>Consider using public transit if it is available and convenient for you.</li>
                 </ol>
               </Modal>
             </div>
 {/* Form 4 */}
             <div className="home-div-models">
               <Button type="primary" shape="round" onClick={() => setVisible4(true)}>
-                Do you need consultancy?
+              Other Solutions
               </Button>
               <Modal
-                title="Do you need consultancy?"
+                title="Other Solutions"
                 centered
                 visible={visible4}
                 onOk={() => setVisible4(false)}
@@ -116,27 +104,11 @@ function Home() {
               >
                 <ol>
                   <li>
-                    <a
-                      href="https://www.webmd.com/baby/considering-pregnancy-see-your-doctor-first"
-                      target="blank">
-                      Your Pre-Pregnancy Checkup
-                    </a>
+                  A warmed-up engine is more fuel-efficient than a cold one. <br/>
+                  <b>Note:</b> Letting your car idle to warm up doesn’t help your fuel economy: it actually uses more fuel and creates more pollution.
                   </li>
                   <li>
-                    <a
-                      href="https://www.indiamart.com/proddetail/
-                      pre-pregnancy-counseling-19345211830.html"
-                      target="blank">
-                      Pre Pregnancy Counseling
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.marchofdimes.org/pregnancy/
-                      your-checkup-before-pregnancy.aspx"
-                      target="blank">
-                      Your checkup before pregnancy
-                    </a>
+                  Use the “economy mode” feature if your vehicle has one.
                   </li>
                 </ol>
               </Modal>
@@ -144,10 +116,10 @@ function Home() {
 {/* Form 5 */}
             <div className="home-div-models">
               <Button type="primary" shape="round" onClick={() => setVisible5(true)}>
-                Do you need to read more about prepregnancy health care?
+              Tips for Electric and Hybrid Vehicles
               </Button>
               <Modal
-                title="Do you need to read more about prepregnancy health care?"
+                title="Tips for Electric and Hybrid Vehicles"
                 centered
                 visible={visible5}
                 onOk={() => setVisible5(false)}
@@ -156,33 +128,19 @@ function Home() {
               >
                 <ol>
                   <li>
-                    <a
-                      href="https://www.cdc.gov/preconception/planning.html"
-                      target="blank">
-                      Planning for Pregnancy
-                    </a>
+                  Read the Owner's Manual
                   </li>
                   <li>
-                    <a
-                      href="https://www.plannedparenthood.org/
-                      learn/pregnancy/pre-pregnancy-health"
-                      target="blank">
-                      How do I plan for a pregnancy?
-                    </a>
+                  Use the Economy Mode
                   </li>
                   <li>
-                    <a
-                      href="https://www.parents.com/getting-pregnant/pre-pregnancy-health/"
-                      target="blank">
-                      Pre-Pregnancy Health
-                    </a>
+                  Avoid Hard Braking
                   </li>
                   <li>
-                    <a
-                      href="https://www.womenshealth.gov/pregnancy/you-get-pregnant/
-                      preconception-health" target="blank">
-                      Preconception health
-                    </a>
+                  Keep the Battery Charged (EVs and Plug-in Hybrids Only)
+                  </li>
+                  <li>
+                  Use Accessories Wisely (such as heating, air conditioning, and entertainment systems)
                   </li>
                 </ol>
               </Modal>
@@ -191,10 +149,10 @@ function Home() {
 
             <div className="home-div-models">
               <Button type="primary" shape="round" onClick={() => setVisible6(true)}>
-                What are the apps to track your pregnancy period?
+              What can I do to improve my fuel economy in cold weather?
               </Button>
               <Modal
-                title="What are the apps to track your pregnancy period?"
+                title="What can I do to improve my fuel economy in cold weather?"
                 centered
                 visible={visible6}
                 onOk={() => setVisible6(false)}
@@ -202,27 +160,25 @@ function Home() {
                 width={800}
               >
                 <ol>
-                  <li>Clue Period Tracker, Ovulation</li>
-                  <li>Flo Period & Ovulation Tracker</li>
-                  <li>Glow Cycle & Fertility Tracker</li>
-                  <li>Fertility Friend FF App</li>
-                  <li>Ovia Fertility & Cycle Tracker</li>
-                  <li>Natural Cycles – Birth Control</li>
-                  <li>Period Tracker by GP Apps</li>
-                  <li>Period Tracker Health Calendar</li>
-                  <li>Ovulation Calendar & Fertility</li>
-                  <li>Eve Period Tracker</li>
-                  <li>Bellabeat Period Diary</li>
+                  <li>Park your car in a warmer place</li>
+                  <li>Combine trips when possible</li>
+                  <li>Minimize idling your car to warm it up.</li>
+                  <li>Don't use seat warmers or defrosters more than necessary.</li>
+                  <li>Check your tire pressure regularly.</li>
+                  <li>Use the type of oil recommended by your manufacturer for cold weather driving.</li>
+                  <li>Remove accessories that increase wind resistance, like roof racks, when not in use.</li>
+                  <li>If you drive a plug-in hybrid or electric vehicle, preheating the cabin while plugged into the charger can extend your vehicle's range.</li>
+                  <li>If you drive a plug-in hybrid or electric vehicle, using the seat warmers instead of the cabin heater can save energy and extend range.</li>
                 </ol>
               </Modal>
             </div>
 {/* Form 7 */}
             <div className="home-div-models">
               <Button type="primary" shape="round" onClick={() => setVisible7(true)}>
-                Planning for pregnancy
+              What can I do to improve my fuel economy in hot weather?
               </Button>
               <Modal
-                title="Planning for pregnancy"
+                title="What can I do to improve my fuel economy in hot weather?"
                 centered
                 visible={visible7}
                 onOk={() => setVisible7(false)}
@@ -230,15 +186,13 @@ function Home() {
                 width={800}
               >
                 <ol>
-                  <li>Make a Plan and Take Action</li>
-                  <li>See Your Doctor</li>
-                  <li>Take 400 Micrograms of Folic Acid Every Day</li>
-                  <li>Stop Drinking Alcohol, Smoking, and Using Certain Drugs</li>
-                  <li>Avoid Toxic Substances and Environmental Contaminants</li>
-                  <li>Reach and Maintain a Healthy Weight</li>
-                  <li>Get Help for Violence</li>
-                  <li>Learn Your Family History</li>
-                  <li>Get Mentally Healthy</li>
+                  <li>Roll the windows down at lower speeds; use the AC at highway speeds.</li>
+                  <li>Don't use the AC more than needed or set the temperature lower than needed.</li>
+                  <li>Park in the shade or use a sunshade so that the cabin doesn't get as hot.</li>
+                  <li>Drive with the windows open for a short time before using the AC.</li>
+                  <li>Don't idle with the AC running before driving.</li>
+                  <li>Read your owner's manual.</li>
+                  <li>For plug-in hybrids and electric vehicles, pre-cooling the cabin while plugged into the charger can extend your vehicle's range. Also, using a warmer temperature setting for the AC will use less battery power.</li>
                 </ol>
               </Modal>
             </div>

@@ -4,7 +4,8 @@ import {
   FacebookOutlined,
   InstagramOutlined,
   YoutubeOutlined,
-  TwitterOutlined
+  TwitterOutlined,
+  GithubOutlined
 } from '@ant-design/icons';
 
 
@@ -14,18 +15,20 @@ function AppFooter() {
     return(
       <div className="footer-container">
         <div className="about-us">
-          <p>We are a group of students of IIT, Sri Lanka.
-            Making this webpage for one of our project module.</p>
-        </div>
-        <div className="mobile">
-          <p>Contact on : (+94) 76 86 60 203</p>
+          <p>About Us:</p>
+          <p style={{textAlign: "justify"}}>I am Umeshika Mahaliyadda, an undedrgraduate at IIT, Sri Lanka. 
+            This website was developed for my final year project.</p>
         </div>
         <div className="social">
-          <p>Follow on : <TwitterOutlined/>  <YoutubeOutlined/>
-          <InstagramOutlined/>  <FacebookOutlined/></p>
+          <p>Contact Us :</p>
+          <p>(+94) 76 86 60 203</p>
+          <p>Follow Us :</p>
+          <p><TwitterOutlined/> &nbsp;&nbsp; <YoutubeOutlined/> &nbsp;&nbsp;
+          <InstagramOutlined/> &nbsp;&nbsp; <FacebookOutlined/> &nbsp;&nbsp; 
+          <GithubOutlined /> </p>
         </div>
         <div className="copyright-text">
-          <p>Copyright &copy; 2021 TeamX, Sri Lanka. All Rights Reserved</p>
+          <p>Copyright &copy; 2023 Fuel-O by Umeshika Mahaliyadda. All Rights Reserved</p>
         </div>
       </div>
     );

@@ -9,14 +9,14 @@ function AppNavBar() {
   const navigate = useNavigate();
 
   return (
-    <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
-      {PAGES.map((page) => (
-        <Menu.Item key={page.id} onClick={() => navigate(page.path)}>
-          {page.icon}
-          {page.name}
-        </Menu.Item>
-      ))}
-    </Menu>
+      <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline" className="menu-item">
+        {PAGES.map((page) => (
+          <Menu.Item key={page.id} onClick={() => navigate(page.path)}>
+            {page.icon}
+            <span>{page.name}</span>
+          </Menu.Item>
+        ))}
+      </Menu>
   );
 }
 
