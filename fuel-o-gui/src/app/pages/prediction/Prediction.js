@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Prediction.css';
-// import axios from 'axios';
+import axios from 'axios';
 
 import { Radio } from 'antd';
 
@@ -20,19 +20,16 @@ class Prediction extends Component {
 
   }
 
-
   handleSubmit = (event) =>{
     event.preventDefault()
-    // eslint-disable-next-line
     console.log(this.state)
-    // axios
-    // .post('https://dqwncwspu6.execute-api.ap-southeast-1.amazonaws.com/dev/userinputs',this.state)
-    // .then(
-    //   // eslint-disable-next-line
-    //   res => alert(res.data)
-    //   );
+    axios
+    .post('https://hbjlxoifgj.execute-api.us-east-1.amazonaws.com/lambda-function-fuel-o',this.state)
+    .then(
+      res => alert(res.data)
+      );
   }
-
+  
   handleInputChange1 = (event) =>{
     event.preventDefault()
     this.setState({
