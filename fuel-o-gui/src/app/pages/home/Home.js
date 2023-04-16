@@ -15,7 +15,6 @@ function Home() {
     <div className="container-home">
 
          <div className="container-home-div1">
-           {/* <h3 className="homepage-para-header">Abstract</h3> */}
             <p className="homepage-para">
             Our fuel comsumption controlling tips can help you reduce the amount of fuel you use. <br/>
             If you are already following these tips, you are probably getting the best fuel usage your vehicle can deliver.
@@ -30,7 +29,7 @@ function Home() {
               <Modal
                 title="Driving More Efficiently"
                 centered
-                visible={visible}
+                open={visible}
                 onOk={() => setVisible1(false)}
                 onCancel={() => setVisible1(false)}
                 width={800}
@@ -53,7 +52,7 @@ function Home() {
               <Modal
                 title="Keeping Your Vehicle in Shape"
                 centered
-                visible={visible2}
+                open={visible2}
                 onOk={() => setVisible2(false)}
                 onCancel={() => setVisible2(false)}
                 width={800}
@@ -75,7 +74,7 @@ function Home() {
               <Modal
                 title="Planning and Combining Trips"
                 centered
-                visible={visible3}
+                open={visible3}
                 onOk={() => setVisible3(false)}
                 onCancel={() => setVisible3(false)}
                 width={800}
@@ -97,7 +96,7 @@ function Home() {
               <Modal
                 title="Other Solutions"
                 centered
-                visible={visible4}
+                open={visible4}
                 onOk={() => setVisible4(false)}
                 onCancel={() => setVisible4(false)}
                 width={800}
@@ -121,7 +120,7 @@ function Home() {
               <Modal
                 title="Tips for Electric and Hybrid Vehicles"
                 centered
-                visible={visible5}
+                open={visible5}
                 onOk={() => setVisible5(false)}
                 onCancel={() => setVisible5(false)}
                 width={800}
@@ -154,7 +153,7 @@ function Home() {
               <Modal
                 title="What can I do to improve my fuel economy in cold weather?"
                 centered
-                visible={visible6}
+                open={visible6}
                 onOk={() => setVisible6(false)}
                 onCancel={() => setVisible6(false)}
                 width={800}
@@ -180,7 +179,7 @@ function Home() {
               <Modal
                 title="What can I do to improve my fuel economy in hot weather?"
                 centered
-                visible={visible7}
+                open={visible7}
                 onOk={() => setVisible7(false)}
                 onCancel={() => setVisible7(false)}
                 width={800}
@@ -202,9 +201,7 @@ function Home() {
 
          </div>
 
-         <div className="container-home-div2">
-             {/* <img className="homepageBgImg" alt=""/> */}
-         </div>
+         <div className="container-home-div2" />
 
     </div>
   )
