@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Layout } from 'antd';
 
 import Home from './pages/home/Home';
-// import Prediction from './pages/prediction/Prediction';
+import Prediction from './pages/prediction/Prediction';
 // import BMI from './pages/BMI/BMI';
 // import Healthcare from './pages/Healthcare/Healthcare';
 
@@ -27,8 +27,8 @@ function App() {
         <Content className="content-container">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/prediction" element={<Prediction />} />
-            <Route path="/calculator" element={<BMI />} />
+            <Route path="/prediction" element={<Prediction />} />
+            {/* <Route path="/calculator" element={<BMI />} />
             <Route path="/healthcare" element={<Healthcare />} /> */}
           </Routes>
         </Content>
