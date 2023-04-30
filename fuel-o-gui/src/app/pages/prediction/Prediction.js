@@ -26,7 +26,7 @@ class Prediction extends Component {
     event.preventDefault()
     console.log(this.state)
     axios
-    .post('https://hbjlxoifgj.execute-api.us-east-1.amazonaws.com/lambda-function-fuel-o',this.state)
+    .post('https://l4yby8c019.execute-api.us-east-1.amazonaws.com/staging/fuelPrediction',this.state)
     .then(
       res => alert(res.data)
       );
